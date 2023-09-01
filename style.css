@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     background-color: #dadada;
-    /* z-index: 999990; */
+    z-index: 999990;
     height: auto;
     align-items: center;
     padding: 10px;
