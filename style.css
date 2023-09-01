@@ -2,8 +2,9 @@
     display: inline-flex;
     position: fixed;
     top: 0px;
+    left: 0;
     width: 100%;
-    background-color: darkgray;
+    background-color: #dadada;
     /* z-index: 999990; */
     height: auto;
     align-items: center;
@@ -37,7 +38,7 @@
     padding: 10px;
     background-color: transparent;
     border-radius: 10px;
-    border: 3px outset;
+    border: none;
     cursor: pointer;
     font-weight: bold;
     width: auto;
@@ -57,10 +58,15 @@
     border: 3px outset;
     background-color: transparent;
     cursor: pointer;
-    background-color: darkgray;
+    background-color: #dadada;
     font-weight: bold;
 }
 
 .bt-ativo:hover .sub-menu{
     display: block;
+}
+
+button:hover{
+    background-color: #b6b6b6;
+    border: 3px outset;
 }
