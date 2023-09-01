@@ -4,11 +4,12 @@
     top: 0px;
     left: 0;
     width: 100%;
-    background-color: #dadada;
+    background-color: #000;
     z-index: 999990;
     height: auto;
     align-items: center;
     padding: 10px;
+    color: #fff;
 }
 
 .pages{
@@ -17,6 +18,10 @@
 
 .logo{
     margin-right: 20px;
+}
+
+.logo h3{
+    color: #fff;
 }
 
 .bt-ativo,
@@ -43,6 +48,7 @@
     font-weight: bold;
     width: auto;
     height: auto;
+    color: #fff;
 }
 
 .icon{
@@ -58,8 +64,9 @@
     border: 3px outset;
     background-color: transparent;
     cursor: pointer;
-    background-color: #dadada;
+    background-color: #000;
     font-weight: bold;
+    color: #fff;
 }
 
 .bt-ativo:hover .sub-menu{
@@ -67,6 +74,6 @@
 }
 
 button:hover{
-    background-color: #b6b6b6;
+    background-color: #383838;
     border: 3px outset;
 }
