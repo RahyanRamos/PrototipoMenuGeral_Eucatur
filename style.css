@@ -1,0 +1,11 @@
+.menu{
+    display: inline-flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: red;
+    z-index: 999990;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
