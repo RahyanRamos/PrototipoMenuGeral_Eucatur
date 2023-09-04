@@ -60,12 +60,13 @@
     width: 100%;
     padding: 10px;
     text-align: left;
-    border: 2px outset;
+    border: 1px;
     background-color: transparent;
     cursor: pointer;
-    background: linear-gradient(to bottom, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0.1));
     font-weight: bold;
     color: #000;
+    margin-top: 1px;
 }
 
 .bt-ativo:hover .sub-menu{
@@ -73,6 +74,5 @@
 }
 
 button:hover{
-    background: linear-gradient(to top, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0));
-    border: 2px outset;
+    background: linear-gradient(to top, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0.1));
 }
