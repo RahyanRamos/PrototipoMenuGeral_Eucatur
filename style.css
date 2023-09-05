@@ -1,7 +1,7 @@
 .menu{
     display: inline-flex;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0;
     width: 100%;
     background: linear-gradient(to bottom, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0));
@@ -13,10 +13,7 @@
 
 .pages{
     display: inline-flex;
-}
-
-.logo{
-    margin-right: 20px;
+    justify-content: center;
 }
 
 .logo h3{
@@ -39,15 +36,16 @@
 
 .bt-ativo button,
 .bt-acesso button{
-    padding: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
     background-color: transparent;
-    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-weight: bold;
     width: auto;
     height: auto;
     color: #000;
+    margin-bottom: 5px;
 }
 
 .icon{
@@ -61,20 +59,28 @@
     padding: 10px;
     text-align: left;
     border: 1px;
+    border-radius: 10px;
     background-color: transparent;
     cursor: pointer;
-    background: linear-gradient(to bottom, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1), rgba(50, 50, 50, 0.5));
     font-weight: bold;
     color: #000;
-    margin-top: 1px;
+    margin-top: 2px;
+    margin-bottom: 0px;
 }
 
 .bt-ativo:hover .sub-menu{
     display: block;
+    transition: 
 }
 
-button:hover{
-    background: linear-gradient(to top, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0.1));
+.bt-ativo button:hover,
+.bt-acesso button:hover{
+    border-bottom: 1px solid;
+}
+
+.sub-menu button:hover{
+    background: linear-gradient(to top, rgba(200, 200, 200, 1), rgba(50, 50, 50, 0.5));
     transform: scale(1.02);
 }
 
