@@ -53,20 +53,39 @@
     height: 10px;
 }
 
+.sub-menu{
+    background-color: #bebebe;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sub-menu:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #bebebe;
+    top: -15px;
+    left: 10%;
+}
+
 .sub-menu button{
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
     text-align: left;
-    border: 1px;
-    border-radius: 10px;
     background-color: transparent;
+    border: none;
     cursor: pointer;
-    background: linear-gradient(to bottom, rgba(200, 200, 200, 1), rgba(50, 50, 50, 0.5));
     font-weight: bold;
     color: #000;
-    margin-top: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .bt-ativo:hover .sub-menu{
@@ -79,8 +98,9 @@
 }
 
 .sub-menu button:hover{
-    background: linear-gradient(to top, rgba(200, 200, 200, 1), rgba(50, 50, 50, 0.5));
-    transform: scale(1.02);
+    border-bottom: 1px solid #535353;
+    color: #535353;
+    transform: scale(1.05);
 }
 
 a{
