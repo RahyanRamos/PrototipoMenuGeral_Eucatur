@@ -5,24 +5,28 @@
     left: 0;
     width: 100%;
     background: linear-gradient(to bottom, rgba(150, 150, 150, 1), rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, );
     z-index: 999990;
-    height: auto;
-    align-items: center;
+    height: 100vh;
+    /* align-items: center; */
     padding: 10px;
 }
 
 .pages{
     display: inline-flex;
     justify-content: center;
+    top: 0;
 }
 
 .logo h3{
     font-family: 'Teko', sans-serif;
+    top: 100;
+    height: 30px;
 }
 
 .bt-ativo,
 .bt-acesso{
-    margin: 0px 5px;
+    margin: 15px 5px;
 }
 
 .sub-menu{
@@ -54,7 +58,7 @@
 }
 
 .sub-menu{
-    background-color: #bebebe;
+    background-color: #d6d6d6;
     height: auto;
     width: auto;
     border-radius: 8px;
@@ -106,4 +110,8 @@
 a{
     color: inherit;
     text-decoration: none;
+}
+
+head{
+    color: #66a7c5;
 }
